@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from './components/header/header.component';
+import Product from './components/product/product.component';
+import Description from './components/description/description.component';
+import Offer from './components/offer/offer.component';
+import Off from './components/off/off.component';
+
+import StepOne from './components/stepOne/stepOne.component';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+          <Header />
+          <Product />
+          <Description />
+          <Offer />
+          <Off />
+
+          <StepOne />
+          
     </div>
   );
 }

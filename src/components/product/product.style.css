@@ -1,0 +1,22 @@
+
+
+.productCard {
+
+    margin: auto;
+
+    border-radius: 10px;
+    width: 90%;
+
+    background: red;
+
+    display: flex;
+}
+
+.product {
+    padding: 20px;
+    margin: auto;
+    
+    width: 70%;
+
+    display: flex;
+}
